@@ -1,0 +1,29 @@
+{
+  "name": "reactportfolio",
+  "version": "1.0.0",
+  "description": "Building portfolio with React and Netlify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "webpack": "^4.29.6"
+  }
+}
+
+"scripts": {
+  "dev": "webpack -d --watch",
+  "start": "node ./server/index.js",
+  "build": "webpack -p",
+  "react-dev": "webpack -d --watch",
+  "server-dev": "nodemon server/index.js"
+}
